@@ -1,0 +1,23 @@
+{
+    "name": "rapid/turbo",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rapid\\Turbo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rapid\\Turbo\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Saremi",
+            "email": "mahdisarmi00@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^9.7"
+    }
+}
